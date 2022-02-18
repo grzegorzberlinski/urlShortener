@@ -9,7 +9,7 @@ shortenBtn.addEventListener('click', function(){
     if(shorted == url.shortUrl){ //todo: search for all shorted urls
         console.log('this url exist!')
     }else{
-        shortenInput.value = `https://shortedurl.com/`;
+        shortenInput.value = `https://shortedurl.com/`; //todo shorted as parameter of this url after /
         let url = {
             'oryginalUrl': shortenInput.value,
             'shortUrl': shorted
